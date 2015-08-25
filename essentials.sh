@@ -14,8 +14,7 @@ fi
 # Install packages
 if [ $OS == "RHEL" ]; then
     sudo yum install -y git vim wget curl
-    sudo yum install -y bash-completion
-    sudo yum install -y telnet mailx 
+    sudo yum install -y telnet mailx
 fi
 
 # Key setup
