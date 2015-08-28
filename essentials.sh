@@ -2,7 +2,7 @@
 
 OS=""
 
-if [ -f /etc/centos-release ] && [ -f /etc/redhat-release ]; then
+if [ -f /etc/centos-release ] || [ -f /etc/redhat-release ]; then
     OS="RHEL"
 fi
 
