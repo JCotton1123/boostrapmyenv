@@ -35,6 +35,7 @@ curl http://jcotton1123.github.io/bootstrapmyenv/configs/vimrc > ~/.vimrc
 # Git configuration
 git config --global user.name "Jesse Cotton"
 git config --global user.email "jcotton1123@gmail.com"
+git config --global commit.gpgsign true
 cat <<EOD >> ~/.gitignore_global
 .DS_Store
 .vagrant
