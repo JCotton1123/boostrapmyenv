@@ -30,7 +30,7 @@ alias vi="vim" # Bad but w/e
 EOD
 
 # Setup Vim
-curl http://jcotton1123.github.io/bootstrapmyenv/configs/vimrc > ~/.vimrc
+curl -L http://jcotton1123.github.io/bootstrapmyenv/configs/vimrc > ~/.vimrc
 
 # Git configuration
 git config --global user.name "Jesse Cotton"
