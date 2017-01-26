@@ -1,10 +1,10 @@
 #!/bin/bash
 
-which yum >/dev/null
+which yum >/dev/null 2>&1
 if [ $? -eq 0 ]; then
   yum install -y postfix
 fi
-which apt-get >/dev/null
+which apt-get >/dev/null 2>&1
 if [ $? -eq 0 ]; then
   apt-get install -y postfix
 fi
