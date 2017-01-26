@@ -19,7 +19,7 @@ echo "smtp_sasl_tls_security_options = noanonymous" >> main.cf
 echo "smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd" >> main.cf
 echo >> main.cf
 
-# echo "[email-smtp.us-west-2.amazonaws.com]  username:password" >> sasl_passwd
+echo "# Ex: [email-smtp.us-west-2.amazonaws.com]  username:password" >> sasl_passwd
 # postmap /etc/postfix/sasl_passwd
 
 /etc/init.d/postfix restart
