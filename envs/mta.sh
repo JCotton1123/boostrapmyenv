@@ -5,7 +5,7 @@ if [ $? -eq 0 ]; then
   yum install -y postfix
 fi
 which apt-get >/dev/null
-if [ $? -eq 0]; then
+if [ $? -eq 0 ]; then
   apt-get install -y postfix
 fi
 
